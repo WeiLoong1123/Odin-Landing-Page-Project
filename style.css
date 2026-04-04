@@ -4,6 +4,10 @@ body {
     margin: 0px;
 }
 
+.basic-box {
+    padding: 0% 10%;
+}
+
 /*Style for header along with the first section*/
 
 h1 {
@@ -41,10 +45,9 @@ button {
     font-weight: bold;
 }
 
-.first-box {
+#first-box {
     color: white;
     margin-bottom: 100px;
-    padding: 0% 10%;
 }
 
 .header {
@@ -71,10 +74,11 @@ img {
 
 /*CSS Code for second section of the main page*/
 
-.second-box {
+#second-box {
     background-color:#F9FAF8;
     color: black;
     padding-top: 10px;
+    padding-bottom: 150px;
 }
 
 .box-only {
@@ -111,5 +115,7 @@ h3 {
 
 /*CSS Code for third section of the main page*/
 
-
+#third-box {
+    background-color: #E5E7EB;
+}
 
