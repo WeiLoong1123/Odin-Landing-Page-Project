@@ -125,9 +125,46 @@ h3 {
     font-weight: 300;
     font-style: italic;
     text-align: justify;
+    margin: 0px;
 }
 
 h4 {
     display: flex;
     justify-content: flex-end;
+}
+
+/* CSS Code for the fourth section of the main page*/
+
+#fourth-box {
+    background-color: white;
+    padding: 10%;
+}
+
+.call-box {
+    background-color: #3882f6;
+    border-radius: 8px;
+    padding: 3% 12% 3% 12%;
+}
+
+.call-action-word {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0px;
+}
+
+.sign-up-word {
+    color: white;
+    font-weight: lighter;
+    margin: 0px;
+    display: inline-block;
+}
+
+.footer-sign-up {
+    color: white;
+    background-color: transparent;
+    border-radius: 8px;
+    border-color: white;
+    width: 120px;
+    height: 40px;
 }
