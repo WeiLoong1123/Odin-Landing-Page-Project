@@ -143,7 +143,9 @@ h4 {
 .call-box {
     background-color: #3882f6;
     border-radius: 8px;
-    padding: 3% 12% 3% 12%;
+    padding: 4% 12% 4% 12%;
+    display: flex;
+    justify-content: space-between;
 }
 
 .call-action-word {
@@ -157,7 +159,6 @@ h4 {
     color: white;
     font-weight: lighter;
     margin: 0px;
-    display: inline-block;
 }
 
 .footer-sign-up {
@@ -166,5 +167,6 @@ h4 {
     border-radius: 8px;
     border-color: white;
     width: 120px;
-    height: 40px;
+    height: 35px;
+    font-size: 15px;
 }
